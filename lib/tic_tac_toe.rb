@@ -117,6 +117,6 @@ def play(board)
   while over?(board) == FALSE
     turn(board)
   end
-  game_winner = 
+  game_winner = winner(board)
   if won?(board)  
-    puts "Congratulations"
+    puts "Congratulations {"
